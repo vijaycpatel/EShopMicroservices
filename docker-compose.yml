@@ -50,7 +50,7 @@ services:
     image: ${DOCKER_REGISTRY-}shoppingweb
     build:
       context: .
-      dockerfile: WebApps/Shopping.Web/Dockerfile
+      dockerfile: src/WebApps/Shopping.Web/Dockerfile
 
 volumes:
   postgres_catalog:
